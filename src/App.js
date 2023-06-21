@@ -1,17 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import Summary from './components/Summary';
+// import Skills from './components/Skills';
+// import Experience from './components/Experience';
+// import Education from './components/Education';
+// import Certifications from './components/Certifications';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Ben Orban's website!
-        </p>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Summary/>
+      </div>
+    );
+  }
 }
 
 export default App;
