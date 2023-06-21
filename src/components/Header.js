@@ -10,10 +10,13 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
 
-export default function Summary() {
+export default function Header() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <CssBaseline />
+      <AppBar position="relative">
+        <Toolbar />
+      </AppBar>
       <main>
         {/* Hero unit */}
         <Box
@@ -25,13 +28,13 @@ export default function Summary() {
         >
           <Container maxWidth="sm">
             <Typography
-              component="h2"
-              variant="h3"
+              component="h1"
+              variant="h2"
               align="center"
               color="text.primary"
               gutterBottom
             >
-              Summary
+              Ben Orban
             </Typography>
             <Typography
               variant="h5"
@@ -39,14 +42,7 @@ export default function Summary() {
               color="text.secondary"
               paragraph
             >
-              I will help deliver value for your company, utilizing over nine
-              years of enterprise software engineering experience and 15 years
-              of professional experience in technology. I will help reduce lead
-              times using DevOps, Agile, and Scrum principles within your
-              organization. Specializing in Java technologies but having
-              delivered several solutions using additional languages and
-              frameworks throughout my career, I look forward to helping solve
-              your toughest challenges.
+              618-917-5250 | ben@orbanfamily.org| https://github.com/borban/
             </Typography>
           </Container>
         </Box>
