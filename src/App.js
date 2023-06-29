@@ -3,6 +3,7 @@ import Summary from './components/Summary';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Education from './components/Education';
 
 class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
         <Summary/>
         <Skills/>
         <Experience/>
+        <Education/>
       </div>
     );
   }
