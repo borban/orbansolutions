@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Link from "@mui/material/Link";
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
@@ -40,7 +41,12 @@ export default function Home() {
               color="text.secondary"
               paragraph
             >
-              618-917-5250 | ben@orbanfamily.org| https://github.com/borban/
+              
+              <Link href="tel:+16189175250">618-917-5250</Link>
+              <br/>
+              <Link href="mailto:ben@orbanfamily.org?subject=Concerning your qualifications">Email</Link>
+              <br/>
+              <Link href="https://github.com/borban/" target="new">GitHub</Link>
             </Typography>
           </Container>
         </Box>
