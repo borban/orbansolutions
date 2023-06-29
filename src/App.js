@@ -1,6 +1,7 @@
 import React from 'react';
 import Summary from './components/Summary';
 import Header from './components/Header';
+import Skills from './components/Skills';
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
       <div>
         <Header/>
         <Summary/>
+        <Skills/>
       </div>
     );
   }
