@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import {ThemeProvider, useTheme } from "@mui/material/styles";
+import { ThemeProvider, useTheme } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
@@ -19,7 +19,7 @@ import Home from "./components/Home";
 function App() {
   const [activeTab, setActiveTab] = useState(0);
   const theme = useTheme();
-  
+
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
@@ -80,7 +80,15 @@ function App() {
                   orientation="vertical"
                 >
                   {components.map((component, index) => (
-                    <Tab key={index} label={component.label} />
+                    <Tab
+                      key={index}
+                      label={component.label}
+                      sx={{
+                        "&.Mui-selected": {
+                          color: "#fff",
+                        },
+                      }}
+                    />
                   ))}
                 </Tabs>
               </SwipeableDrawer>
@@ -88,7 +96,15 @@ function App() {
           ) : (
             <Tabs value={activeTab} onChange={handleTabChange} centered>
               {components.map((component, index) => (
-                <Tab key={index} label={component.label} />
+                <Tab
+                  key={index}
+                  label={component.label}
+                  sx={{
+                    "&.Mui-selected": {
+                      color: "#fff",
+                    },
+                  }}
+                />
               ))}
             </Tabs>
           )}
