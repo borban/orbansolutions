@@ -34,7 +34,7 @@ export default function Summary() {
               Summary
             </Typography>
             <Typography
-              variant="h5"
+              variant="body1"
               align="center"
               color="text.secondary"
               paragraph

@@ -32,7 +32,7 @@ export default function Skills() {
               Skills
             </Typography>
             <Typography
-              variant="h5"
+              variant="body1"
               align="left"
               color="text.secondary"
               component="ul"
