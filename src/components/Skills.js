@@ -16,12 +16,15 @@ export default function Skills() {
         {/* Hero unit */}
         <Box
           sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "90vh",
             bgcolor: "background.paper",
-            pt: 8,
-            pb: 6,
+            py: 4,
           }}
         >
-          <Container maxWidth="sm">
+          <Container maxWidth="lg">
             <Typography
               component="h2"
               variant="h3"
@@ -33,21 +36,22 @@ export default function Skills() {
             </Typography>
             <Typography
               variant="body1"
-              align="left"
+              align="center"
               color="text.secondary"
-              component="ul"
+              paragraph
             >
-              <li>Languages: Java, JavaScript, HTML, CSS, PHP, BASH, JSP, PL/SQL</li>
-              <li>Frameworks/Libraries: Spring Boot, Jakarta EE, React.js, JSF</li>
-              <li>
-                Databases: Oracle, MySQL, MongoDB, Postgres
-              </li>
-              <li>
-                Tools: IntelliJ, Maven, Gradle, Git, Jenkins, Postman, SoapUI, JUnit, Splunk, Selenium
-              </li>
-              <li>
-                Infrastructure: AWS (EC2, S3, Lambda, Route 53, IAM, CloudFront), Weblogic, Tomcat, Linux
-              </li>
+              Java, JavaScript, HTML, CSS, PHP, BASH, JSP, PL/SQL
+              <br />
+              Spring Boot, Jakarta EE, React.js, JSF
+              <br />
+              Oracle, MySQL, MongoDB, Postgres
+              <br />
+              IntelliJ, Maven, Gradle, Git, Jenkins, Postman, SoapUI, JUnit,
+              Splunk, Selenium
+              <br />
+              AWS (EC2, S3, Lambda, Route 53, IAM, CloudFront), Weblogic,
+              Tomcat, Linux
+              <br />
             </Typography>
           </Container>
         </Box>

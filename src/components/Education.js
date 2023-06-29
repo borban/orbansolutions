@@ -1,8 +1,6 @@
-import * as React from "react";
-import AppBar from "@mui/material/AppBar";
+import React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -18,12 +16,15 @@ export default function Education() {
         {/* Hero unit */}
         <Box
           sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            minHeight: "90vh",
             bgcolor: "background.paper",
-            pt: 8,
-            pb: 6,
+            py: 4,
           }}
         >
-          <Container maxWidth="sm">
+          <Container maxWidth="lg">
             <Typography
               component="h2"
               variant="h3"
@@ -39,28 +40,39 @@ export default function Education() {
               color="text.secondary"
               component="h6"
             >
-                Bachelor of Science in Software Development, Bellevue University
-                <br/>
-              </Typography>
+              Bachelor's of Science in Software Development, Bellevue University
+              <br />
+              <br />
+            </Typography>
             <Typography
               variant="body1"
-              align="left"
+              align="center"
               color="text.secondary"
-              component="ul"
+              paragraph
             >
+              Foundation of Software Development
               <br/>
-              <li>Foundation of Software Development</li>
-              <li>Introduction to Programming with Python</li>
-              <li>Database Development and Use</li>
-              <li>Programming with Java</li>
-              <li>Web Development with HTML and CSS</li>
-              <li>Intermediate Java Programming</li>
-              <li>Interactive Development with JavaScript</li>
-              <li>Advanced Java Programming</li>
-              <li>DevOps</li>
-              <li>Server-Side Development</li>
-              <li>Server-Side Scripting</li>
-              <li>Capstone in Software Development</li>
+              Introduction to Programming with Python
+              <br/>
+              Database Development and Use
+              <br/>
+              Programming with Java
+              <br/>
+              Web Development with HTML and CSS
+              <br/>
+              Intermediate Java Programming
+              <br/>
+              Interactive Development with JavaScript
+              <br/>
+              Advanced Java Programming
+              <br/>
+              DevOps
+              <br/>
+              Server-Side Development
+              <br/>
+              Server-Side Scripting
+              <br/>
+              Capstone in Software Development
             </Typography>
           </Container>
         </Box>
