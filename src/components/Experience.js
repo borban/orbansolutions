@@ -24,7 +24,9 @@ export default function Experience() {
     try {
       const apiResponse = await API.graphql({ query: listJobEntries });
       const entries = apiResponse.data.listJobEntries.items;
-      setJobEntries(entries);
+      // Sort job entries in descending order based on targetDate
+      const sortedJobEntries = entries.sort((a, b) => b.targetDate.localeCompare(a.targetDate));
+      setJobEntries(sortedJobEntries);
     } catch (error) {
       console.error("Error fetching job entries:", error);
     }
