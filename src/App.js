@@ -59,7 +59,7 @@ function App() {
       >
         <AppBar position="static">
           {isMobile ? (
-            <Box sx={{ display: "flex", alignItems: "center" }}>
+            <Box sx={{ display: "flex", alignItems: "center", paddingLeft: "15px" }}>
               <IconButton
                 color="inherit"
                 aria-label="open drawer"
@@ -85,7 +85,7 @@ function App() {
                       label={component.label}
                       sx={{
                         "&.Mui-selected": {
-                          color: "#fff",
+                          color: "#000000",
                         },
                       }}
                     />
@@ -101,7 +101,7 @@ function App() {
                   label={component.label}
                   sx={{
                     "&.Mui-selected": {
-                      color: "#fff",
+                      color: "#000000",
                     },
                   }}
                 />
