@@ -7,11 +7,9 @@ import TimeTracker from "./TimeTracker";
 import MyJobEntries from "./JobEntry";
 import { API } from "aws-amplify";
 import { listJobEntries } from "../graphql/queries";
-import config from '../../aws-exports'
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
-API.configure(config);
 
 export default function Experience() {
   const [jobEntries, setJobEntries] = useState([]);
