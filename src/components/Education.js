@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Link from "@mui/material/Link";
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
@@ -42,7 +43,7 @@ export default function Education() {
               color="text.secondary"
               paragraph
             >
-              Bachelor's of Science in Software Development, Bellevue University
+             <Link href="https://www.parchment.com/u/award/3b8faf69285eff2376e37bff52a9950f" target="new" underline="hover">Bachelor of Science in Software Development, Bellevue University</Link>
             </Typography>
 
             <Typography

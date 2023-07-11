@@ -41,9 +41,9 @@ export default function Certifications() {
               color="text.secondary"
               paragraph
             >
-              <Link href="https://www.credly.com/badges/2edc18c2-a8c5-46e7-a71a-8fcc1d8c05c0/public_url" target="new">AWS Certified Cloud Practitioner</Link>
+              <Link href="https://www.credly.com/badges/2edc18c2-a8c5-46e7-a71a-8fcc1d8c05c0/public_url" target="new" underline="hover">AWS Certified Cloud Practitioner</Link>
               <br />
-              <Link href="https://www.credly.com/badges/2c89a429-7ac2-407d-a05d-968f36fa5238/public_url" target="new">CompTIA Security+</Link>
+              <Link href="https://www.credly.com/badges/2c89a429-7ac2-407d-a05d-968f36fa5238/public_url" target="new" underline="hover">CompTIA Security+</Link>
             </Typography>
           </Container>
         </Box>

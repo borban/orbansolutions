@@ -42,11 +42,11 @@ export default function Home() {
               paragraph
             >
               
-              <Link href="tel:+16189175250">618-917-5250</Link>
+              <Link href="tel:+16189175250" underline="hover">618-917-5250</Link>
               <br/>
-              <Link href="mailto:ben@orbanfamily.org?subject=Concerning your qualifications">Email</Link>
+              <Link href="mailto:ben@orbanfamily.org?subject=Concerning your qualifications" underline="hover">Email</Link>
               <br/>
-              <Link href="https://github.com/borban/" target="new">GitHub</Link>
+              <Link href="https://github.com/borban/" target="new" underline="hover">GitHub</Link>
             </Typography>
           </Container>
         </Box>
