@@ -66,14 +66,12 @@ export default function Summary() {
                   color="text.secondary"
                   paragraph
                 >
-                  I will help deliver value for your company, utilizing over nine
-                  years of enterprise software engineering experience and almost 15
-                  years of professional experience in technology. I will help reduce
-                  lead times using DevOps, Agile, and Scrum principles within your
-                  organization. Specializing in Java technologies but having
-                  delivered several solutions using additional languages and
-                  frameworks throughout my career, I look forward to helping solve
-                  your toughest challenges.
+                  Seasoned Software Engineer with over nine years of specialized experience in enterprise software
+                  development and a total of 15 years in the technology sector. Proficient in employing DevOps, Agile, and
+                  Scrum methodologies to optimize operations and minimize lead times. Expert in Java with a broad exposure to
+                  multiple other languages and frameworks. Proven track record in delivering innovative solutions to complex
+                  technological challenges. Seeking an opportunity to leverage my extensive technical skills to drive growth and
+                  efficiency in a forward-thinking organization.
                   <br />
                   <br />
                 </Typography>

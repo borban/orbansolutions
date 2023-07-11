@@ -65,18 +65,11 @@ export default function Skills() {
                   color="text.secondary"
                   paragraph
                 >
-                  Java, JavaScript, HTML, CSS, PHP, BASH, JSP, PL/SQL
-                  <br />
-                  Spring Boot, Jakarta EE, React.js, JSF
-                  <br />
-                  Oracle, MySQL, MongoDB, Postgres
-                  <br />
-                  IntelliJ, Maven, Gradle, Git, Jenkins, Postman, SoapUI, JUnit,
-                  Splunk, Selenium
-                  <br />
-                  AWS (EC2, S3, Lambda, Route 53, IAM, CloudFront), Weblogic,
-                  Tomcat, Linux
-                  <br />
+                  <p><strong>Expert:</strong> Java, HTML, CSS, Git</p>
+                  <p><strong>Advanced:</strong> JavaScript, JSP, Jakarta EE, JSF, IntelliJ, Jenkins, Weblogic, Linux, Maven</p>
+                  <p><strong>Intermediate:</strong> PHP, BASH, PL/SQL, Spring Boot, ReactJS, Oracle DB, Postgres, Gradle, Junit</p>
+                  <p><strong>Entry-Level:</strong> MongoDB, Selenium, AWS (EC2, S3, Lambda, Route 53, IAM, CloudFront)</p>
+
                 </Typography>
               </motion.div>
             </motion.div>
