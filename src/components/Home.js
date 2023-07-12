@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Link from "@mui/material/Link";
+import profile from "../images/profile.jpg";
 
 const defaultTheme = createTheme();
 
@@ -49,6 +50,20 @@ export default function Home() {
               animate="visible"
             >
               <motion.div variants={childVariants}>
+                <Box
+                  sx={{
+                    bgcolor: "background.paper",
+                    pt: 4,
+                    pb: 2,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <img src={profile} height="300px"/>
+                </Box>
+              </motion.div>
+              <motion.div variants={childVariants}>
                 <Typography
                   component="h1"
                   variant="h2"
@@ -67,9 +82,9 @@ export default function Home() {
                   paragraph
                 >
                   <Link href="tel:+16189175250" underline="hover">618-917-5250</Link>
-                  <br/>
+                  <br />
                   <Link href="mailto:ben@orbanfamily.org?subject=Concerning your qualifications" underline="hover">Email</Link>
-                  <br/>
+                  <br />
                   <Link href="https://github.com/borban/" target="new" underline="hover">GitHub</Link>
                 </Typography>
               </motion.div>
