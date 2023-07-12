@@ -60,7 +60,7 @@ export default function Home() {
                     alignItems: "center",
                   }}
                 >
-                  <img src={profile} height="300px"/>
+                  <img src={profile} height="300px" alt="Profile"/>
                 </Box>
               </motion.div>
               <motion.div variants={childVariants}>
