@@ -15,6 +15,7 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { IconButton, SwipeableDrawer } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import Home from "./components/Home";
+import ReactGA from 'react-ga4';
 
 function App() {
   const [activeTab, setActiveTab] = useState(0);
@@ -46,6 +47,9 @@ function App() {
     { label: "Education", component: <Education /> },
     { label: "Certifications", component: <Certifications /> },
   ];
+
+  const TRACKING_ID = "G-J0HTW21DEZ";
+  ReactGA.initialize(TRACKING_ID);
 
   return (
     <ThemeProvider theme={theme}>
