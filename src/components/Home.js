@@ -86,8 +86,11 @@ export default function Home() {
                   <Link href="mailto:ben@orbanfamily.org?subject=Concerning your qualifications" underline="hover">Email</Link>
                   <br />
                   <Link href="https://github.com/borban/" target="new" underline="hover">GitHub</Link>
+                  <br />
+                  <Link href="https://www.orbansolutions.com/public/pdf/Benjamin-Orban-Resume.pdf" target="_blank" underline="hover" download>Resume</Link>
                 </Typography>
               </motion.div>
+              
             </motion.div>
           </Container>
         </Box>
