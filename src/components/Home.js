@@ -87,7 +87,7 @@ export default function Home() {
                   <br />
                   <Link href="https://github.com/borban/" target="new" underline="hover">GitHub</Link>
                   <br />
-                  <Link href="https://www.orbansolutions.com/public/pdf/Benjamin-Orban-Resume.pdf" target="_blank" underline="hover" download>Resume</Link>
+                  <Link href="https://www.orbansolutions.com/public/pdf/Benjamin_Orban_Resume_2023.pdf" target="_blank" underline="hover" download>Resume</Link>
                 </Typography>
               </motion.div>
               
