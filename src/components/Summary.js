@@ -66,12 +66,12 @@ export default function Summary() {
                   color="text.secondary"
                   paragraph
                 >
-                  Seasoned Software Engineer with over nine years of specialized experience in enterprise software
-                  development and a total of 15 years in the technology sector. Proficient in employing DevOps, Agile, and
-                  Scrum methodologies to optimize operations and minimize lead times. Expert in Java with a broad exposure to
-                  multiple other languages and frameworks. Proven track record in delivering innovative solutions to complex
-                  technological challenges. Seeking an opportunity to leverage my extensive technical skills to drive growth and
-                  efficiency in a forward-thinking organization.
+                  Software Engineer with 15+ years in the tech sector, including 9 years focused on enterprise software
+                  development. Proficient in Java, Agile, Scrum, and DevOps methodologies. Demonstrated expertise in
+                  delivering solutions for complex IT challenges using a wide array of languages and frameworks. Adept at
+                  leading cross-functional teams, improving operational efficiency, and introducing innovative technologies.
+                  Seeking a challenging role in a progressive organization to contribute towards its growth and technical
+                  excellence.
                   <br />
                   <br />
                 </Typography>
