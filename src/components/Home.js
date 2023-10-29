@@ -81,11 +81,12 @@ export default function Home() {
                   color="text.secondary"
                   paragraph
                 >
-                  <Link href="tel:+16189175250" underline="hover">618-917-5250</Link>
-                  <br />
-                  <Link href="mailto:ben@orbanfamily.org?subject=Concerning your qualifications" underline="hover">Email</Link>
+
+                  <Link href="mailto:ben@orbanfamily.org?subject=Orban Solutions" underline="hover">Email</Link>
                   <br />
                   <Link href="https://github.com/borban/" target="new" underline="hover">GitHub</Link>
+                  <br />
+                  <Link href="https://linkedin.com/in/borban87" target="new" underline="hover">LinkedIn</Link>
                 </Typography>
               </motion.div>
               
